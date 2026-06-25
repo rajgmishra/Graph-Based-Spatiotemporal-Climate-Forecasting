@@ -1,0 +1,12 @@
+torch>=2.0
+torch-geometric>=2.5
+numpy
+pandas
+matplotlib
+scikit-learn
+scipy
+networkx
+tqdm
+xarray
+netCDF4
+jupyter
