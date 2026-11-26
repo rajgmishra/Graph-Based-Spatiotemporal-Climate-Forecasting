@@ -23,7 +23,7 @@ The repository also contains a separate **Data Preparation** folder and a folder
 | [07-annual-ablation-robustness-experiments-ipynb.ipynb](./07-annual-ablation-robustness-experiments-ipynb.ipynb) | Conducts a GATv2 spatial-graph sensitivity experiment by evaluating alternative k-NN neighborhood sizes. |
 | [08-end-to-end-gatv2-gru-experiment-ipynb.ipynb](./08-end-to-end-gatv2-gru-experiment-ipynb.ipynb) | Compares the frozen two-stage GATv2-GRU model with an end-to-end fine-tuned model, including independent test evaluation. |
 | [09-final-forecasting-visualization-ipynb.ipynb](./09-final-forecasting-visualization-ipynb.ipynb) | Produces final forecasting visualizations from the model predictions and evaluation outputs. |
-| [histgnn-ipynb.ipynb](./histgnn-ipynb.ipynb) | Implements a HiSTGNN-adapted spatiotemporal forecasting model and compares its 2024–2025 test performance with a persistence baseline. The implementation is adapted for this study's data and graph; it should not be interpreted as an exact reproduction of the original HiSTGNN model. |
+| [histgnn-ipynb.ipynb](./histgnn-ipynb.ipynb) | Implements a HiSTGNN-adapted spatiotemporal forecasting model and compares its 2024–2025 test performance with a persistence baseline. The implementation is adapted for this HiSTGNN study's data and graph. |
 
 ## Dataset and Forecasting Setup
 
