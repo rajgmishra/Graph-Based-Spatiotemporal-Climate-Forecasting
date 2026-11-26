@@ -1,12 +1,21 @@
+# Core numerical and data-processing libraries
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3
+matplotlib>=3.7
+
+# Climate data handling
+xarray>=2023.1
+netCDF4>=1.6
+
+# Geospatial data handling (used in temperature data validation)
+geopandas>=0.14
+
+# Deep learning and graph neural networks
 torch>=2.0
 torch-geometric>=2.5
-numpy
-pandas
-matplotlib
-scikit-learn
-scipy
-networkx
-tqdm
-xarray
-netCDF4
-jupyter
+
+# Jupyter notebook environment
+jupyter>=1.0
+ipykernel>=6.0
