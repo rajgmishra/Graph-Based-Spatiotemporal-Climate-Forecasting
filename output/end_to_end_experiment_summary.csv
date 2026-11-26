@@ -1,0 +1,4 @@
+Seed,Frozen_Val_MSE,End_to_End_Val_MSE,Improvement_Percent,Best_Epoch,Training_Time_Min,Checkpoint
+42,0.1367834083667045,0.13175325400780413,3.6774594367578217,15,0.6077216625213623,/kaggle/working/end_to_end_results/end_to_end_seed_42.pt
+123,0.15152138435110532,0.13515163247192818,10.803591815954604,80,1.9619219581286111,/kaggle/working/end_to_end_results/end_to_end_seed_123.pt
+2023,0.13587078236347605,0.1302560175920346,4.132429852667712,47,1.2896379510561624,/kaggle/working/end_to_end_results/end_to_end_seed_2023.pt

@@ -1,0 +1,10 @@
+model,seed,final_training_reconstruction_mse,minimum_training_reconstruction_mse,epoch_of_minimum_training_mse,training_time_seconds,checkpoint
+GCN,42,0.0542365200817585,0.0542365200817585,1000,49.15840983390808,/kaggle/working/spatial_encoder_results/checkpoints/GCN_seed_42.pt
+GCN,123,0.053337566554546356,0.053337566554546356,1000,48.72283458709717,/kaggle/working/spatial_encoder_results/checkpoints/GCN_seed_123.pt
+GCN,2023,0.053435198962688446,0.053435198962688446,1000,48.843828439712524,/kaggle/working/spatial_encoder_results/checkpoints/GCN_seed_2023.pt
+GAT,42,0.035157863050699234,0.035157863050699234,1000,93.67785453796387,/kaggle/working/spatial_encoder_results/checkpoints/GAT_seed_42.pt
+GAT,123,0.046372927725315094,0.046372927725315094,1000,93.12098813056946,/kaggle/working/spatial_encoder_results/checkpoints/GAT_seed_123.pt
+GAT,2023,0.03156551346182823,0.03156551346182823,1000,93.14155173301697,/kaggle/working/spatial_encoder_results/checkpoints/GAT_seed_2023.pt
+GATv2,42,0.03539268672466278,0.03539268672466278,1000,156.70702624320984,/kaggle/working/spatial_encoder_results/checkpoints/GATv2_seed_42.pt
+GATv2,123,0.030893269926309586,0.030893269926309586,1000,156.93157529830933,/kaggle/working/spatial_encoder_results/checkpoints/GATv2_seed_123.pt
+GATv2,2023,0.030590549111366272,0.030590549111366272,1000,156.94313645362854,/kaggle/working/spatial_encoder_results/checkpoints/GATv2_seed_2023.pt
