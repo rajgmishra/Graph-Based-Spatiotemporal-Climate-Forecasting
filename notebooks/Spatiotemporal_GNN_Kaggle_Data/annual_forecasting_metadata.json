@@ -1,0 +1,55 @@
+{
+    "forecasting_task": "Annual one-year-ahead forecasting",
+    "input_window_years": 10,
+    "historical_period": "2000-2025",
+    "training_target_years": [
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017
+    ],
+    "validation_target_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+    ],
+    "testing_target_years": [
+        2024,
+        2025
+    ],
+    "number_of_nodes": 5040,
+    "number_of_input_features": 4,
+    "input_features": [
+        "Normalized rainfall",
+        "Normalized maximum temperature",
+        "Rainfall missingness indicator",
+        "Temperature missingness indicator"
+    ],
+    "target_variables": [
+        "Rainfall (mm/day)",
+        "Maximum temperature (degree_Celsius)"
+    ],
+    "annual_coverage_threshold_percent": 90.0,
+    "imputation_method": "Training-only node-wise mean; global training mean fallback",
+    "normalization": {
+        "rainfall_mean": 3.048717737197876,
+        "rainfall_std": 2.088418483734131,
+        "temperature_mean": 31.235830307006836,
+        "temperature_std": 2.8963937759399414
+    },
+    "target_imputation": false,
+    "graph": {
+        "file": "data/spatial/static_spatial_graph_verified.pt",
+        "number_of_nodes": 5040,
+        "number_of_directed_edges": 40320,
+        "construction": "Haversine k-nearest neighbours",
+        "k": 8
+    }
+}
