@@ -85,7 +85,7 @@ If you use this work, please cite the associated study:
 Patel, P. J., Mishra, R. G., Kumar, A., and Pant, S.  
 *Graph-Based Spatiotemporal Modeling for Rainfall and Temperature Forecasting.*
 
-Please use the final journal or conference citation, including publication year and DOI, when that information becomes available.
+Please use the final journal citation, including publication year and DOI, when that information becomes available.
 
 ## License
 
